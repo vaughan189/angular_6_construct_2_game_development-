@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'myFirst2DGame';
+  url = 'https://construct2-game-development.herokuapp.com/'
 }

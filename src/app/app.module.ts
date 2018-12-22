@@ -2,10 +2,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { SafeURLPipe } from './safe-url.pipe';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SafeURLPipe
   ],
   imports: [
     BrowserModule
